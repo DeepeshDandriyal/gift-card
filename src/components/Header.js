@@ -8,13 +8,15 @@ const Header = () => {
   switch (year) {
     case "2014":
       setDescription("hello guyss");
-      setImage("");
+      setImage("../Images/neom-oBFN1y3d13Y-unsplash.jpg");
       break;
     case "2015":
       setDescription("guyss its 2015");
+      setImage("../Images/frida-flowers-xtradry-QhSiwysiB78-unsplash.jpg");
       break;
     default:
       setDescription("");
+      setImage("");
   }
 
   return (
