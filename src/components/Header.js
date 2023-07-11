@@ -1,13 +1,14 @@
 import { MenuItem, Select } from "@mui/material";
 import React, { useContext, useState } from "react";
 import { YearContext } from "../context/YearContext";
+
 const Header = () => {
   const { setDescription, setImage } = useContext(YearContext);
   const [year, setYear] = useState("2014");
 
   switch (year) {
     case "2014":
-      setDescription("hello guyss");
+      setDescription("Hello Guyss");
       setImage("../Images/neom-oBFN1y3d13Y-unsplash.jpg");
       break;
     case "2015":
@@ -22,6 +23,7 @@ const Header = () => {
   return (
     <div className="container">
       <h1 className="title">Happy Birthday Kalpana!!</h1>
+
       <Select
         className="select"
         variant="outlined"
