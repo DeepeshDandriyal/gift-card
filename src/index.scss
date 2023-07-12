@@ -9,7 +9,7 @@ $secondary: #6554af;
 }
 
 body {
-  height: 120vh;
+  height: 115vh;
   width: 100%;
   position: relative;
   background: linear-gradient(0deg, $primary 0.03%, $secondary);
@@ -94,7 +94,7 @@ body {
 }
 .link {
   position: absolute;
-  bottom: 10px;
+  bottom: 1.5rem;
 }
 
 .cover-page {
