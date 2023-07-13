@@ -9,7 +9,7 @@ const Header = () => {
   switch (year) {
     case "2014":
       setDescription("Hello Guyss");
-      setImage("../Images/neom-oBFN1y3d13Y-unsplash.jpg");
+      setImage("../Images/IMG-20220513-WA0047.jpg");
       break;
     case "2015":
       setDescription("guyss its 2015");
