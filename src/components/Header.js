@@ -86,9 +86,9 @@ const Header = () => {
           setFriend(e.target.value);
         }}
       >
-        <MenuItem value={"Aishwarya"}>Aishwarya</MenuItem>
-        <MenuItem value={"Shubhi"}>Shubhi</MenuItem>
         <MenuItem value={"Kiran"}>Kiran</MenuItem>
+        <MenuItem value={"Shubhi"}>Shubhi</MenuItem>
+        <MenuItem value={"Aishwarya"}>Aishwarya</MenuItem>
         <MenuItem value={"Shikha"}>Shikha</MenuItem>
         <MenuItem value={"Deepesh"}>Deepesh</MenuItem>
         <MenuItem value={"Ajay"}>Ajay</MenuItem>
