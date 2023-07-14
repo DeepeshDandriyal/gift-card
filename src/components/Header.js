@@ -33,6 +33,36 @@ const Header = () => {
       );
       setImage("../Images/Samiksha.jpg");
       break;
+    case "Rayal":
+      setDescription(
+        "Happiest birthday Kalpana. Fortunate to find a sister amongst my friends. I pray you get all that you desire and stay happy and chubby."
+      );
+      setImage("../Images/Rayal.jpeg");
+      break;
+    case "Akhil":
+      setDescription(
+        "Hy Kalpana wish u a very happy birthday dear 💕.hope all your wishes come true ❤"
+      );
+      setImage("../Images/Akhil.jpeg");
+      break;
+    case "Shubhi":
+      setDescription(
+        "Hy Kalpana wish u a very happy birthday dear 💕.hope all your wishes come true ❤"
+      );
+      setImage("../Images/Shubhi.jpeg");
+      break;
+    case "Kiran":
+      setDescription(
+        "Hy Kalpana wish u a very happy birthday dear 💕.hope all your wishes come true.. See u soon n lots of love ❤"
+      );
+      setImage("../Images/Samiksha.jpg");
+      break;
+    case "Aadi":
+      setDescription(
+        "न्मदिंन की हार्दिक शुभकामनाएं🎂🎂💐💐🎉🎉 मैं यह कामना करता हूँ की इस साल का प्रतिफल तुम्हारे द्वारा सोचे गए लक्ष्यों की कल्पना से भी बड़ा हो। अत्यंत प्रेम के साथ पुनः जन्मदिन की शुभकामनाएं।❤️❤️🎉❤"
+      );
+      setImage("../Images/Aadi.jpeg");
+      break;
     default:
       setDescription("Coming soon");
       setImage("");
