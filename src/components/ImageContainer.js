@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
-import { YearContext } from "../context/YearContext";
+import { FriendContext } from "../context/YearContext";
 
 const ImageContainer = () => {
-  const { image } = useContext(YearContext);
+  const { image } = useContext(FriendContext);
   return (
     <div className="image-container">
       <img src={image} alt="2014" width={200} height={200} />

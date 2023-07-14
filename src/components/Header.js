@@ -1,22 +1,40 @@
 import { MenuItem, Select } from "@mui/material";
 import React, { useContext, useState } from "react";
-import { YearContext } from "../context/YearContext";
+import { FriendContext } from "../context/YearContext";
 
 const Header = () => {
-  const { setDescription, setImage } = useContext(YearContext);
-  const [year, setYear] = useState("2014");
+  const { setDescription, setImage } = useContext(FriendContext);
+  const [friend, setFriend] = useState("Aishwarya");
 
-  switch (year) {
-    case "2014":
-      setDescription("Hello Guyss");
-      setImage("../Images/IMG-20220513-WA0047.jpg");
+  switch (friend) {
+    case "Aishwarya":
+      setDescription(
+        "We might have less pictures together but shared beautiful bond of friendship ,gald to met such a sweet innocent soul,Keep up ur innocence May u manifest all your goals nd desire Happy birthday kalpana❤"
+      );
+      setImage("../Images/Aishwarya.jpeg");
       break;
-    case "2015":
+    case "Kaprwan":
       setDescription("guyss its 2015");
-      setImage("../Images/frida-flowers-xtradry-QhSiwysiB78-unsplash.jpg");
+      setImage("../Images/Kaprwan.jpeg");
+      break;
+    case "Ridhima":
+      setDescription("lorem ipsum");
+      setImage("../Images/Ridhima.jpeg");
+      break;
+    case "Shikha":
+      setDescription(
+        "Happy birthday Kalpu..🤗 May u hv millions of moments laden wid joy n laughter..🧡🥳🤗💞"
+      );
+      setImage("../Images/Shikha.jpeg");
+      break;
+    case "Samiksha":
+      setDescription(
+        "Hy Kalpana wish u a very happy birthday dear 💕.hope all your wishes come true.. See u soon n lots of love ❤"
+      );
+      setImage("../Images/Samiksha.jpg");
       break;
     default:
-      setDescription("");
+      setDescription("Coming soon");
       setImage("");
   }
 
@@ -33,21 +51,23 @@ const Header = () => {
           marginRight: 15,
           color: "white",
         }}
-        value={year}
+        value={friend}
         onChange={(e) => {
-          setYear(e.target.value);
+          setFriend(e.target.value);
         }}
       >
-        <MenuItem value={"2014"}>2014</MenuItem>
-        <MenuItem value={"2015"}>2015</MenuItem>
-        <MenuItem value={"2016"}>2016</MenuItem>
-        <MenuItem value={"2017"}>2017</MenuItem>
-        <MenuItem value={"2018"}>2018</MenuItem>
-        <MenuItem value={"2019"}>2019</MenuItem>
-        <MenuItem value={"2020"}>2020</MenuItem>
-        <MenuItem value={"2021"}>2021</MenuItem>
-        <MenuItem value={"2022"}>2022</MenuItem>
-        <MenuItem value={"2023"}>2023</MenuItem>
+        <MenuItem value={"Aishwarya"}>Aishwarya</MenuItem>
+        <MenuItem value={"Shubhi"}>Shubhi</MenuItem>
+        <MenuItem value={"Kiran"}>Kiran</MenuItem>
+        <MenuItem value={"Shikha"}>Shikha</MenuItem>
+        <MenuItem value={"Deepesh"}>Deepesh</MenuItem>
+        <MenuItem value={"Ajay"}>Ajay</MenuItem>
+        <MenuItem value={"Samiksha"}>Samiksha</MenuItem>
+        <MenuItem value={"Akhil"}>Akhil</MenuItem>
+        <MenuItem value={"Ridhima"}>Ridhima</MenuItem>
+        <MenuItem value={"Aadi"}>Aadi</MenuItem>
+        <MenuItem value={"Rayal"}>Rayal</MenuItem>
+        <MenuItem value={"Kaprwan"}>Kaprwan</MenuItem>
       </Select>
     </div>
   );

@@ -1,16 +1,18 @@
 import { createContext, useState } from "react";
 
-export const YearContext = createContext({
+export const FriendContext = createContext({
   image: "",
   description: "",
   setImage: () => null,
   setDescription: () => null,
 });
 
-export const YearProvider = ({ children }) => {
+export const FriendProvider = ({ children }) => {
   const [image, setImage] = useState("");
   const [description, setDescription] = useState("");
   const value = { image, description, setImage, setDescription };
 
-  return <YearContext.Provider value={value}>{children}</YearContext.Provider>;
+  return (
+    <FriendContext.Provider value={value}>{children}</FriendContext.Provider>
+  );
 };

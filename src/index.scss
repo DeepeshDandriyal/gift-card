@@ -80,21 +80,24 @@ body {
   align-items: center;
   img {
     margin-top: 2rem;
-    width: 70%;
+    width: 80%;
     height: 100%;
     border-radius: 10px;
   }
 }
 .description-container {
+  font-size: 0.9rem;
   width: 100%;
-  margin-top: 2rem;
+  margin-top: 1rem;
   color: white;
   display: flex;
   justify-content: center;
+  text-align: center;
+  line-height: 22px;
 }
 .link {
   position: absolute;
-  bottom: 1.5rem;
+  bottom: 0.3rem;
 }
 
 .cover-page {

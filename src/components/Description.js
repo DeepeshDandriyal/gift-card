@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
-import { YearContext } from "../context/YearContext";
+import { FriendContext } from "../context/YearContext";
 
 import { Link } from "react-router-dom";
 const Description = () => {
-  const { description } = useContext(YearContext);
+  const { description } = useContext(FriendContext);
   return (
     <div className="description-container">
       <p>{description}</p>
