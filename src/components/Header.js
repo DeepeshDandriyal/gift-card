@@ -53,7 +53,7 @@ const Header = () => {
       break;
     case "Kiran":
       setDescription(
-        "Hy Kalpana wish u a very happy birthday dear 💕.hope all your wishes come true.. See u soon n lots of love ❤"
+        "Happy birthday, Kalpu! Here's to a fantastic year ahead and an extraordinary future filled with love, success, and all the beautiful things life has to offer. Cheers! 🥳🎉"
       );
       setImage("../Images/Kiran.jpeg");
       break;
